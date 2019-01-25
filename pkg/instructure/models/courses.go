@@ -64,5 +64,6 @@ type Course struct {
     
     // The course's IANA time zone name.
 	IsPublic		bool 	`json:"is_public"`
+
 	TimeZone		string 	`json:"time_zone,omitempty"`
 }
