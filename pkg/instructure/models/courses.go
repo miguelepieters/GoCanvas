@@ -56,9 +56,13 @@ type Course struct {
 	// Optional: the total number of active and invited students in the course.
 	TotalStudents	int32	`json:"total_students,omitempty"`
 
+    // Optional: user-generated HTML for the course syllabus.
 	SyllabusBody	string	`json:"syllabus_body,omitempty"`
 
+    // Optional: the public description of the course.
 	PublicDescription	string 	`json:"public_description,omitempty"`
+    
+    // The course's IANA time zone name.
 	IsPublic		bool 	`json:"is_public"`
 	TimeZone		string 	`json:"time_zone,omitempty"`
 }
