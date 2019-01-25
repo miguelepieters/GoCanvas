@@ -53,7 +53,7 @@ type Course struct {
 	// The course-set locale, if applicable.
 	Locale			string	`json:"locale,omitempty"`
 
-	// Optional: the total number of active and invited students in the course.
+    // Optional: the total number of active and invited students in the course.
 	TotalStudents	int32	`json:"total_students,omitempty"`
 
     // Optional: user-generated HTML for the course syllabus.
